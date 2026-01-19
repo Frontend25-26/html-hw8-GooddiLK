@@ -29,6 +29,12 @@ body {
     color: var(--main-text-color);
 }
 
+@media (min-width: 391px) {
+    body {
+        width: 1440px;
+    }
+}
+
 .Content {
     overflow: hidden;
 
