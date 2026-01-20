@@ -112,15 +112,20 @@ ul {
     line-height: 58px;
     color: var(--main-text-color);
 
-    p {
+    .about-text {
         margin: 0 0 40px 0;
+    }
+
+    .name,
+    .work {
+        display: inline;
     }
 
     img {
         height: 400px;
         width: 1140px;
         border-radius: 8px;
-        object-fit: cover; /*Иначе криво растягивается*/
+        object-fit: cover;
     }
 }
 
@@ -129,16 +134,13 @@ ul {
         font-size: 36px;
         line-height: 44px;
 
-        p {
+        .about-text {
             margin-bottom: 32px;
         }
 
-        .name {
+        .name,
+        .work {
             display: block;
-        }
-
-        .desktop-only {
-            display: none;
         }
 
         img {
